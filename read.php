@@ -35,4 +35,4 @@ if ($result -> num_rows > 0) {
 $conn -> close();
 ?>
 <br>
-<a href="create.php">Inserir novo registro.</a>
+<a href="../CRUD/create.php">Inserir novo registro.</a>

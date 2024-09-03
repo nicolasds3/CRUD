@@ -42,6 +42,6 @@ $row = $result -> fetch_assoc();
         <button type="submit">Enviar</button>
     </form>
     <br>
-    <a href="read.php">Ver novos registros.</a>
+    <a href="../CRUD/read.php">Ver novos registros.</a>
 </body>
 </html>

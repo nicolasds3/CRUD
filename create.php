@@ -35,4 +35,4 @@ include 'db.php';
 </body>
 </html>
 <br>
-<a href="read.php">Ver registro.</a>
+<a href="../CRUD/read.php">Ver registro.</a>
