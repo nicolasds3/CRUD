@@ -1,3 +1,9 @@
+<script>
+function confirmDelete() {
+    return confirm("Tem certeza de que deseja excluir este registro?");
+}
+</script>
+
 <?php
 include 'db.php';
 
@@ -23,7 +29,7 @@ if ($result -> num_rows > 0) {
                     <td>{$row['created_at']}</td>
                     <td>
                     <a href='update.php?id={$row['id']}'>Editar</a>
-                    <a href='delete.php?id={$row['id']}'>Excluir</a>
+                    <a href='delete.php?id=" . $row['id'] . "' onclick='return corfirmDelete()'>Excluir</a>
                     </td>
                 </tr>
         ";
